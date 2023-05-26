@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  text-align: center;
+  padding-top: 160px;
+  background-image: url(https://i.ibb.co/47QTJ8Y/nightfall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+  font-family: 'Prompt', sans-serif;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 19px;
+  color: #FFF;
+}
+
+h3 span {
+  color: #f59842;
+}
+
+h1 {
+  color: #f59842;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+
+  font-family: 'PT Serif', serif;
+}
+
+p {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 72px;
+  color: white;
+  opacity: .7;
+}
+
+a {
+  padding: 12px 32px;
+  font: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: white;
+}
+
+a:hover,
+.btn-primary {
+  color: black;
+  background-color: #f59842;
+  text-decoration: none;
+}
